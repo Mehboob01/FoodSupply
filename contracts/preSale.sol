@@ -206,7 +206,7 @@ contract preSale is Ownable {
     event TokenSell(address seller, uint price, uint tokenValue);
 
     constructor() {
-        tokenAddress = IERC20(0xa58327773EBc3BBcE7dd76D6D604262886C2B4CC);
+        tokenAddress = IERC20(0x50Ae3579146ba3E69C2f713a1E13Cd440C028066);
         seller = payable(_msgSender());
         whitelist[_msgSender()] = true;
     }
